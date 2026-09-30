@@ -2,21 +2,22 @@
   "date": "2026-09-30",
   "scope": "当前校正版知识库；静态一致性检查不替代事实研究与现场验证",
   "counts": {
-    "cards": 55,
-    "documents": 99,
+    "cards": 119,
+    "tools": 95,
+    "documents": 166,
     "templates": 14,
-    "nodes": 103,
-    "edges": 254,
+    "nodes": 167,
+    "edges": 734,
     "canvases": 5,
     "closedFindings": 22
   },
   "checks": [
     {
-      "check": "55张卡片：字段完整且HTML与主源一致",
+      "check": "119张卡片：字段完整且HTML与主源一致",
       "status": "通过"
     },
     {
-      "check": "当前99份Markdown全部进入页面；全文与本地一致",
+      "check": "全部当前Markdown进入页面；全文与本地一致",
       "status": "通过"
     },
     {
@@ -24,7 +25,7 @@
       "status": "通过"
     },
     {
-      "check": "103个节点、254条关系无重复ID及悬空引用",
+      "check": "图谱无重复ID及悬空引用",
       "status": "通过"
     },
     {
@@ -42,16 +43,28 @@
     {
       "check": "页面不含旧流程标签和外部运行依赖",
       "status": "通过"
+    },
+    {
+      "check": "95张工具卡全部有分组、来源、独立正文和索引",
+      "status": "通过"
+    },
+    {
+      "check": "资料工具表所有映射都能到达有效卡片",
+      "status": "通过"
+    },
+    {
+      "check": "当前正文的Wiki链接、标题和代码块无残缺",
+      "status": "通过"
     }
   ],
   "files": [
     {
       "file": "00_学习入口.md",
-      "sha256": "c53adffc8a9041670fd381ecf0ba50aa45324dc7c5e7e23ed86d6c452985db6e"
+      "sha256": "608c1e7f5ecfb80415c7e3c2aa39503522c8eafaa368e8975240efebc3fd2234"
     },
     {
       "file": "01_体系总论.md",
-      "sha256": "32aa225b1b2e4052644c1c75bea2d93361e390f81e5900efef77e0ca170c449a"
+      "sha256": "dda719309d67889279f8264bad9f6159ad4ae0bba4ddd0e03266b1dd344f5446"
     },
     {
       "file": "02_系统结构与运行流程.md",
@@ -59,7 +72,7 @@
     },
     {
       "file": "03_按问题选择工具.md",
-      "sha256": "3f2c79beca33c33bfd37e8ab642fec5275498b548b6af4473cb832da1e863fd2"
+      "sha256": "913b1f6305bd441e23f114d9636617ffb1360d7446c3db043b9e169b8bab4273"
     },
     {
       "file": "04_90天部署与运营节奏.md",
@@ -75,11 +88,11 @@
     },
     {
       "file": "07_来源与版本边界.md",
-      "sha256": "e37fbc4489a9cafd23d0c6c2467acc8df318332d96e9b0af8c2ca94f8df785e0"
+      "sha256": "79d2d6b6b533ec0d45feed90928b32c32ea7ab7f188307bd07ec10cac497dec8"
     },
     {
       "file": "08_知识图谱说明.md",
-      "sha256": "acbbb414723e26fdc0b92cbe84d613a84f1a1546aba4dba0c818836021931b9c"
+      "sha256": "c0ca31949d370d912c2c1d2048fcc4f5025d376e772c2bffc62ad4ec842f50b3"
     },
     {
       "file": "09_原有读书资料校准对照.md",
@@ -87,7 +100,7 @@
     },
     {
       "file": "10_知识总索引.md",
-      "sha256": "e7a115288eac5c46480b30a3d56b5afdf11c6c92acf8a92a94ef609ae940b0a9"
+      "sha256": "1cde9df55901fb30ffc68b6ada93970a22f78d7dd31577660d6e741d436b512f"
     },
     {
       "file": "11_原读书资料接入索引.md",
@@ -95,35 +108,47 @@
     },
     {
       "file": "12_校正版修订与验收记录.md",
-      "sha256": "8eb3a660bc7691acecad9baca4a0caaeb9eeb7a575b6b93df96c90b21dd76e31"
+      "sha256": "5641121f84514bebff02a64e36c765ff8108def137bcbb1e9c2edbc5784d0d2b"
     },
     {
       "file": "13_QDC模拟训练与填表示范.md",
       "sha256": "8c45b3bb869960ea2997997c03fef2bedbcf5f158d06883f233c1e721d081fc5"
     },
     {
+      "file": "14_模块工具目录与来源覆盖.md",
+      "sha256": "efaffff342c8ffbb48b49cef7a1c0175685784aa59f3c413787a10d93af5823a"
+    },
+    {
+      "file": "15_术语白话与易混概念.md",
+      "sha256": "82246cb4f259dfc6ed1f3373c60176066217eddd83fba9882cdef5c05c2aca64"
+    },
+    {
       "file": "F01_研发与新产品IPD.md",
-      "sha256": "e87083bf7aca8cf3e164d5e9cb3a5698cd57f762164000e310052684f60ed7bb"
+      "sha256": "393e54cc51945f40fac2d5bdd837f71763fb8d050bf359dc25ad0f07980ad614"
     },
     {
       "file": "F02_供应链与产销协同.md",
-      "sha256": "dc2c8f9178a263c86ded2eed862190564dba4abdc3759597e45611f2f352fa71"
+      "sha256": "ccd9954113bd361ba634003e2e1a2c849417c88136e1d4322ad741ec52546dd2"
     },
     {
       "file": "F03_销售与增长落地.md",
-      "sha256": "72c414c4ee2fa6444fa5af0fa7997ce3d4ee64ca124373c58bae92702100b189"
+      "sha256": "40548db2a27dad4c8a755a2c56c819d749ef54bafe0dd0e65e565762264c3e8e"
     },
     {
       "file": "F04_财务价值创造树.md",
-      "sha256": "ad6f57a770ad82a817b5e9c493314f4a4521a5813b4ce47256d43d429bbeff08"
+      "sha256": "0321d374dd4ed5397ad2f0b9aa1e3fa7152f37fcb601a321dfcb86f737a47841"
     },
     {
       "file": "F05_人力资源与组织能力.md",
-      "sha256": "8cdcb442311168fd69b60fcf20d7bfaaccebcd5f26bafe12982152708b5e0e2e"
+      "sha256": "0a91ed27b4d3c02981073e106025603a48dfbf328bcad429fa29c45826535e0f"
     },
     {
       "file": "F06_质量与EHS.md",
-      "sha256": "ba77a8ffa00d899b5a082b9430f3af8fb99e881ebc724864f179c657d2324c98"
+      "sha256": "5adcca88b65c5ec90ffe8af4ed82776b8139217f07550821720f881305613471"
+    },
+    {
+      "file": "README.md",
+      "sha256": "42b366456ae203aad61212b828239fbf2b0a5b7e2c9770187b278e646ff4f9df"
     },
     {
       "file": "X01_DBS成熟度自评.md",
@@ -155,227 +180,483 @@
     },
     {
       "file": "知识卡索引.md",
-      "sha256": "e86c62d5cd895a08243282548c216200c85759d3c79a11bffbe3dfeb6ad95e8c"
+      "sha256": "d13fd810ad7dc5e566112eb77e8a938d839c42c41dab00108bb113796f8e8eee"
     },
     {
       "file": "知识卡/C01_DBS定义.md",
-      "sha256": "ac065548853677ec024d946de67ef2bbbb4366c3666005460857a6ac6d4b77b7"
+      "sha256": "16eadfcf55b5404aa03eb2fedb6478f1662feca99b652b970f94f3fc1f814c61"
     },
     {
       "file": "知识卡/C02_人才计划流程绩效.md",
-      "sha256": "b4a8429385c93baa2f591f2e9d7e132e03c22c3aaf287b52871351fa90e5c62e"
+      "sha256": "892a90e0ec3b00d9e885905f685ee1cdc4253a41b89e7508bc09478fe055650b"
     },
     {
       "file": "知识卡/C03_质量交付成本创新.md",
-      "sha256": "663af43f5b3e47480a4d639fa1ea7ff33686043ce4bf78f88fe7f6267ed22810"
+      "sha256": "8c862bdfe4836e0c4c391c00200042af3d359169b44487bf180ecf20f936d8d0"
     },
     {
       "file": "知识卡/C04_PDCA与试验学习.md",
-      "sha256": "ede129b05b13fbd3120942978a4fadaed596524c22be1fa82e16b7d27e234c5c"
+      "sha256": "3c503a8729673fb61479916febc64682c3e118db778fb1b2d29a3b86a37dff56"
     },
     {
       "file": "知识卡/C05_价值流与浪费.md",
-      "sha256": "6b96b5f061d6adcf74f7123db39e878763fcbf0bd0834ba473a358acdc7c8a8b"
+      "sha256": "2c64c75a8ca9e5d62f9c5b277fc9a4d25cd37fb3710b3cd894f179a25312c6af"
     },
     {
       "file": "知识卡/C06_结果与过程指标.md",
-      "sha256": "c07058e5e05af3afd647c908ecc279f8e335c0a83fb0c14f53c1a87e376d099e"
+      "sha256": "7b49bdc09a49275dad78bb195d6eaa467b7ddcc19640852a0f6a2adba40b5604"
     },
     {
       "file": "知识卡/C07_文化价值观与管理行为.md",
-      "sha256": "254bb91182dfe0b9cd8436ae555f0f03c023349acf686b780a0116485a0a47c4"
+      "sha256": "b06487e8c755a83de52036835b1d294e9f0667d7ae35b8f78daa2f18ad92ff5c"
     },
     {
       "file": "知识卡/M01_共同基础.md",
-      "sha256": "97afb7c387edb48237fdd4b61d1f230e6da074cbef035e0ae6a33fdb1aabd3c0"
+      "sha256": "ba79c2d895b10ca9e0c56372bed6f05fd10bbfd5b551802ecb6d33d95a5e2c1e"
     },
     {
       "file": "知识卡/M02_精益能力.md",
-      "sha256": "2547fcd376f3af3a149d915fdb17a7380409d2d1cbfa45a9b735b8c5a2e4a8f3"
+      "sha256": "557e304f1f37f1493e8f45a30a5c4a107127d7bff8ff37e291050686255d0176"
     },
     {
       "file": "知识卡/M03_增长能力.md",
-      "sha256": "7f65d97f69dd300039fc6da3b15b91736f792611cb75eaf1b549c421a08a5629"
+      "sha256": "01c6b68514806012fe097c2792311fb37ef70713a061a17b2950f28cfe975418"
     },
     {
       "file": "知识卡/M04_领导力能力.md",
-      "sha256": "8e8995d8fec65830769bb24dd1ffc3b664c03b98f309cf9f840db0bd43b61926"
+      "sha256": "b46bc9aa02dc9a941925ae90c1762acc02996be306570a80178488734ec92000"
     },
     {
       "file": "知识卡/T01_方针部署.md",
-      "sha256": "fb7da48ceea52bd9427c5a1eedd4c3ebe1a5bdaefe0801f8b36cdd962c11e76d"
+      "sha256": "ff4f248f18b3466dc40fc098f64eb417efd6451a27e2f6610dfc7ca3f644be56"
     },
     {
       "file": "知识卡/T02_目标协商与部署矩阵.md",
-      "sha256": "670e065cd26c7c5c5b52134c8dbef61f06b2c69e3728de7588d67620a56a5507"
+      "sha256": "c88cd7cad8d2ffadfe8c8a466ee611220133b1a7970c2eaf7a5b96845dcc8edb"
     },
     {
       "file": "知识卡/T03_保龄图与行动计划.md",
-      "sha256": "2e922be2433a1cfdedd1062f7bb21273100264154b3ed2d3f3c948e3824e8fd7"
+      "sha256": "d7bb7db7228d9128fb876132e70290a63cbec0a45b8fa88ebbfaacbecc33560f"
     },
     {
       "file": "知识卡/T04_客户之声.md",
-      "sha256": "c46384a1d53a8a4aa86a57a499ce9fbb33a9b4f7ec3e39b82c08954ba0fac5c0"
+      "sha256": "ae39c4a3232dc5ac8b75b9d41ddb81873bf258459fad62d52f8ac76f21541e8e"
     },
     {
       "file": "知识卡/T05_价值流图.md",
-      "sha256": "4b0a37be9df7ddb1f8334ef35377436680c2bea6fba353c13091313c0fd5c63f"
+      "sha256": "0f99e42fd42f9cc7fcfd17b60a34973062096045c4710d7551227c80699ad405"
     },
     {
       "file": "知识卡/T06_问题解决流程.md",
-      "sha256": "938e41b063d3a5ff769bccda40f9bd77ddcb650ff8362d2d733bebaee4d313c7"
+      "sha256": "0ea20a32eade204a34f4874cfc1effe8b4ad719927cd5c1989fd90cafeb6d274"
     },
     {
       "file": "知识卡/T07_改善活动.md",
-      "sha256": "37dc36aa15123fd853ad09cb2d028ac6515f3eb32b5f3a3ae714f02563b30475"
+      "sha256": "66508654d8fa1d78b30ca9ec8e79857237fa74de365142c930abab4fba0704f0"
     },
     {
       "file": "知识卡/T08_可视化与日常管理.md",
-      "sha256": "20139c0acf145a403a421a9e0bcf8941d76b4d801d04c922a076a7cdfd2d106c"
+      "sha256": "0336ab90c84d7fe220543c07fe19b148ec6b71f4d5c7f20e3beffda83d8f5fc7"
     },
     {
       "file": "知识卡/T09_标准作业.md",
-      "sha256": "f11d104f6cd8e7e08fd7c2f01ad26886dce9086adeacc162632444da46b1ae2c"
+      "sha256": "58b12d911e4c35b30fa8883eac00a864b06fab529a8fb0504314678a95595aa8"
     },
     {
       "file": "知识卡/T10_事务流程改进.md",
-      "sha256": "8785dd5061790787dabb2235b2edfaa18b0aecc0696ce180429b3e3639f7ea19"
+      "sha256": "85fb32a50c6a9caeb3d5f4d25a40d625eb5c44ee8be98e035ab06b2b958bb4fd"
     },
     {
       "file": "知识卡/T11_5S.md",
-      "sha256": "0cc00a89647069c0e4819d610c83f2873a6cabc86c8723f1b77856e530f4026c"
+      "sha256": "9ffcd307ceb279cfa638ce0297b5cc0db0217ed3a47fd5deb768d2fa5de7c2c3"
     },
     {
       "file": "知识卡/T12_现场观察.md",
-      "sha256": "5b1964e9b518868b88657dfcfb15ed4fb650fbcee92e5dd45eaab0a108477936"
+      "sha256": "8393f21f1c0fb374ae2e2e04fb888a8ab01584de06e7406cd9d75a710a6c9eda"
     },
     {
       "file": "知识卡/T13_拉动与在制品限制.md",
-      "sha256": "4f30b4db0bd48a98a7b0d93f94514d12f04a6682450b30cc246ef63df8080d48"
+      "sha256": "873569d630d9203cd62ac892582fddf6ad3796db7cede62e3b25a016e12df1c1"
     },
     {
       "file": "知识卡/T14_快速换型.md",
-      "sha256": "49c4132843e246bde04bc53bfa119811b3677a1451e640cb7612f030650fb50f"
+      "sha256": "12e4b173724387135664b3cbd71411e17ddfa4342311f35533c46301ed4a4fa2"
     },
     {
       "file": "知识卡/T15_设备可靠性与TPM.md",
-      "sha256": "255251421752969d614c85d5c3baaac34138080bc7a9ed106391bf160a7831d7"
+      "sha256": "d565a4bb63b1b3cc6338c759e2ca348d63c1e08bc8a7b393a2556a98cbc95d1c"
     },
     {
       "file": "知识卡/T16_变异管理与质量控制.md",
-      "sha256": "9749a0d4f527a8d84e24a4d3600b2c1a9189bd11d6cd3bc39d543d0f184e27e9"
+      "sha256": "dedd6939ed51585808d6e31c61d914c9e1e6eda5392dd5db8284b4ff16f7b837"
     },
     {
       "file": "知识卡/T17_产销库存协同.md",
-      "sha256": "fac06f497539b7d55edeb62b29ebec3d1872d76a328404f15da788fe359bc2b4"
+      "sha256": "7181b05602ac4a3d5b28e7d1d6ac5098fc028acef54fb7f01dcc16fe7cc09a11"
     },
     {
       "file": "知识卡/T18_价值分析与价值工程.md",
-      "sha256": "d37af12e6871751ea7ffef236e13c6cb3f6948da0709c9e950817a5e2a832931"
+      "sha256": "56a017fcad9678b266d3b73c34378dab47dfbd633d670f45aa276ee3eacbd19e"
     },
     {
       "file": "知识卡/T19_客户细分.md",
-      "sha256": "5dae9aade3dfea199c9af3cca7512216664f6b774dc760c34a0e4480ed1c8e1f"
+      "sha256": "739813bab713a6debc133ae42b1f3f1ef41246e5563f35af4c9258b8aa7df0bd"
     },
     {
       "file": "知识卡/T20_创新领域与机会选择.md",
-      "sha256": "9b1eb1fbdbbee9275f6a12b40e192b88a14b478e912980499f62d1dcd44d1a11"
+      "sha256": "1d324ab3fc3c40d57a2e52581fd4976620c9782edfa9ec8d6aab981f5f39b79f"
     },
     {
       "file": "知识卡/T21_产品规划与资源配置.md",
-      "sha256": "d4fb249211a203e457bfd23cf0319f5dfd70dfae51643c4dc68215fcecfc1aa9"
+      "sha256": "5c57567a17f3d4dfed6819c7055daaf6629392736ecc83f387056e888fb0759a"
     },
     {
       "file": "知识卡/T22_快速设计评审.md",
-      "sha256": "490d75a70ba7c5210997617c0dc3f314729a610268d5f084190102acb7fc0aff"
+      "sha256": "bf2256796ed9712e0513eb58bc43a2372cc281cb16d8d3ac84e220938d69dfae"
     },
     {
       "file": "知识卡/T23_可视化项目管理.md",
-      "sha256": "c41d7e15130ced978e18236a6eaf1fe35654c360a269d21ed2da882bed5e257a"
+      "sha256": "8181f74656f080b2e1c08fd25bc6750e934f7ba322bbc1c2632ab43a96a287eb"
     },
     {
       "file": "知识卡/T24_销售漏斗管理.md",
-      "sha256": "adaa0ef096f443bc41c8a1761743c18e006d9ec08d28e703efcd605834da6694"
+      "sha256": "5a63bad29ea3f194607743551ec0e927bf05c4eb17621efdac5b505ff03b0160"
     },
     {
       "file": "知识卡/T25_价值销售.md",
-      "sha256": "1bdab8471ccf68b872382e87682a2319dc49592244ee23dff72a07c2d5710b17"
+      "sha256": "6d25ee55ba66b97d3c0535c91064990a24c576f00bae814f541864b9464d401f"
     },
     {
       "file": "知识卡/T26_增长室.md",
-      "sha256": "8b1009a2a7966e0be8d0c6ef7ee889ddab38d97f832395bc67a808b8d1b6a5c1"
+      "sha256": "01856bc4f9fb7a510ff158224b76e1bfc29ed7c948131df6b860b7f3b3520079"
     },
     {
       "file": "知识卡/T27_人才发展与继任.md",
-      "sha256": "f364e10870c5120f3550ee02c90f4f4986c905bfa15678fdc057e24e97817259"
+      "sha256": "5bea8579cc7bc5b0a5e799f35d00499db801a19b288c2f1f5f7414792727a15b"
     },
     {
       "file": "知识卡/T28_领导标准工作.md",
-      "sha256": "ed336c3939b655b59aa8a2963a7a42365125d4fe27c3ba0bb7bc358fea8241dc"
+      "sha256": "2f14330067f470defa987991d695354259fe0402792698011cabb6457a414923"
     },
     {
       "file": "知识卡/T29_DBS推进角色.md",
-      "sha256": "1ba6cb15f61504638a3da397dcfd1563d315199ddebcf78059674761b2c5d1a7"
+      "sha256": "d672926526bdeef096696a85e7a7530edb3911a719a8632aab89b56e4b78e895"
     },
     {
       "file": "知识卡/T30_上市与交付准备.md",
-      "sha256": "64d3731d722d22fe539d271659e54ebeb067fc4220858e3616e28e39bcbaffb5"
+      "sha256": "86fa0fe8bb60eb916d7cea6f73b232977dd740ee7c926e5442ad0f71c9437018"
     },
     {
       "file": "知识卡/T31_九宫格人才盘点.md",
-      "sha256": "d4455d49459d0b7c07c86eadfa4a3282fa1eeafac16d88bed6f6e8f83d23aa2d"
+      "sha256": "2bf754c089e931152f6a4525e785f73942ecb2829f2e0da9609fe8c38827183a"
+    },
+    {
+      "file": "知识卡/T32_帕累托分析.md",
+      "sha256": "bd8d3fc6a50d4d278ddfba38a0658453507103d9b5c4f7d89a3b26f1b7594532"
+    },
+    {
+      "file": "知识卡/T33_五问追因.md",
+      "sha256": "d6e5e5fb2aa10246863d0c6bfd27af30b7743d658e4d569ff669858fad50b20c"
+    },
+    {
+      "file": "知识卡/T34_鱼骨图.md",
+      "sha256": "8791e862179eab83697636e65cf3ce07a903405f2d8010b7caff3e2e71a9b1ae"
+    },
+    {
+      "file": "知识卡/T35_查检表与数据采集.md",
+      "sha256": "50d000bd62ea0b2c718d944123c1b73dc79cea3069ed738628a59b001e237727"
+    },
+    {
+      "file": "知识卡/T36_分层分析.md",
+      "sha256": "97242ccab6606d973fd00eeadb22d2fe7665897e1aadc481d7971d44123fa9c0"
+    },
+    {
+      "file": "知识卡/T37_直方图.md",
+      "sha256": "ad69c43e77506854cea19c72177a0d03c08967eb9689a3f167ef6936ebf55f68"
+    },
+    {
+      "file": "知识卡/T38_散点图.md",
+      "sha256": "acc6110983bf976af0133c441f4c316832c6a97db28a7a199ca14b5ed3f5f014"
+    },
+    {
+      "file": "知识卡/T39_流程边界与SIPOC.md",
+      "sha256": "fc374ef98053f00ff28962a7e4073b837babd9949a8ccc15ea2943ee1c575793"
+    },
+    {
+      "file": "知识卡/T40_A3问题解决报告.md",
+      "sha256": "4d926007601327f959aeaab0e2c6c05e0bfe32ffa2b7546a440d5aea79b565bb"
+    },
+    {
+      "file": "知识卡/T41_关键质量要求.md",
+      "sha256": "a658abbb607158fa1e9ee0d9e248b4795e6f5138a55641bac46f1883249b7996"
+    },
+    {
+      "file": "知识卡/T42_测量系统分析.md",
+      "sha256": "f33942e78ee1f078cd1af05d5499985f551d76a73c0bb66df3930d518f244fca"
+    },
+    {
+      "file": "知识卡/T43_统计过程控制.md",
+      "sha256": "24be3612b3f21a9f67dfbe17424fd29fd62c6978b5e0fe509a55bd4ed798cebf"
+    },
+    {
+      "file": "知识卡/T44_过程能力与绩效指数.md",
+      "sha256": "92063e59fd1cce15d49e766164e97d20f897631ce0e653e2411345108b51d2c4"
+    },
+    {
+      "file": "知识卡/T45_失效模式与影响分析.md",
+      "sha256": "696e26342e40765ef1e960d0209f2a67013f21ccb50f2b009f38adbc8f899771"
+    },
+    {
+      "file": "知识卡/T46_控制计划与异常反应.md",
+      "sha256": "dc081424b07145e64c7ad40293f83229d4ecf94998ca59a23b0a079f8aa5925d"
+    },
+    {
+      "file": "知识卡/T47_防错.md",
+      "sha256": "e68a07d621e63cd0c09e3ea0acf50c19021e325557d1dc05a6069e02a616aa42"
+    },
+    {
+      "file": "知识卡/T48_设备综合效率.md",
+      "sha256": "a613a9ca892009e906d34b5c66f8a10baf5420ef69a53c6df5f8d7a89e9d1963"
+    },
+    {
+      "file": "知识卡/T49_节拍周期与交付前置期.md",
+      "sha256": "42c09c92b01ecc02e42e0c3361a60244238575637d515fac25531dbd85fccd3f"
+    },
+    {
+      "file": "知识卡/T50_作业平衡.md",
+      "sha256": "f1c3a0a0cd3be5af7dbdf524eaae6d3542cf185b0fff84bab7b698a9708022e3"
+    },
+    {
+      "file": "知识卡/T51_连续流与单元布局.md",
+      "sha256": "dba3bc8435accf740cd3c72c78a253d4c462296f73348a95e4c77ec03d5a5520"
+    },
+    {
+      "file": "知识卡/T52_均衡化.md",
+      "sha256": "bdfbe9c456a31d048b877724b28ed4b353bb62a265f05c03857e542c1400e39a"
+    },
+    {
+      "file": "知识卡/T53_物料分类管理.md",
+      "sha256": "6ba52586fc8452c24df0612839b5ffb7ad636d5d21545fb12d8af1c71ed77eaa"
+    },
+    {
+      "file": "知识卡/T54_缓冲与安全库存.md",
+      "sha256": "952baefcc0ad5b689b0ea0fb25d1362a34c1d7c32d32bc6adfc60cfd0993ec24"
+    },
+    {
+      "file": "知识卡/T55_先进先出与队列限制.md",
+      "sha256": "e8b6628503b6926c575a58fbff498df052fd50b0557fa827a9c61738cef9e241"
+    },
+    {
+      "file": "知识卡/T56_约束识别与瓶颈改善.md",
+      "sha256": "d745631affa478a96b6ffc87ea46a012327cfafa0080fe4aa2d25b514821f0f4"
+    },
+    {
+      "file": "知识卡/T57_供应商质量管理.md",
+      "sha256": "75e03eb037612cacde6278f8b4be1a35d80683995fc8deb097b6182da1c5a323"
+    },
+    {
+      "file": "知识卡/T58_生产准备流程.md",
+      "sha256": "c19005c22a63ba0a6b291c34ac55e594cacd54f76e08eef984cd55da0edee7a0"
+    },
+    {
+      "file": "知识卡/T59_能源节省改善.md",
+      "sha256": "a21159deab02d216ebd206013addbbf519323875e45e0e04720fa272208b1ac0"
+    },
+    {
+      "file": "知识卡/T60_物料管理系统.md",
+      "sha256": "7b79c94011037ad2d5c6bfb8d4deb41f59b772746eb267c2cca2de31ba1fcf6e"
+    },
+    {
+      "file": "知识卡/T61_采购工作坊与供应链改善.md",
+      "sha256": "eda0a8dcfaa6510b2a950ee7a8b40fa830d6c734dd5a8e6121c997525928d524"
+    },
+    {
+      "file": "知识卡/T62_可靠性设计.md",
+      "sha256": "72836a8816d02ad07c4e0fa9c7301572337d78b39affb10e85b2666a338cfdca"
+    },
+    {
+      "file": "知识卡/T63_客户服务与支持.md",
+      "sha256": "53044cdb194e0a2b7b4e5228db6448f297da01abfb1c257733b2ed4e6412908f"
+    },
+    {
+      "file": "知识卡/T64_客户缺陷追踪与纠正.md",
+      "sha256": "172636c4ea363427d131abcc282e2470e6a8575cafd021350afc207ceed023f0"
+    },
+    {
+      "file": "知识卡/T65_质量系统基础.md",
+      "sha256": "0775b1464a8634d603335bd37b69df77f84aed6c9183153e6a67ca8edb2bb566"
+    },
+    {
+      "file": "知识卡/T66_合规批准与放行准备.md",
+      "sha256": "ed4deb178b2a7504d2a370a5cc073c85604fc14d42166f47143f663ea61b5a91"
+    },
+    {
+      "file": "知识卡/T67_精益转化路线.md",
+      "sha256": "8edc850f355add0b775a13509227814a4c898dc78a1723bc67ec384893d50b27"
+    },
+    {
+      "file": "知识卡/T68_从客户问题到产品组合.md",
+      "sha256": "b5a56d55e1dfbcd7c0f664ccbe8f3c46f2891dd197f3012e1c4892e938f9f501"
+    },
+    {
+      "file": "知识卡/T69_丹纳赫创新流程.md",
+      "sha256": "183a85ebd1bc147850bfa96017d20ad1083d35fc44586d10d7cf52e99439a835"
+    },
+    {
+      "file": "知识卡/T70_加速产品开发.md",
+      "sha256": "571ee1a73ae8698511de8fba05d5e99086d73b620f17587787bfaed5c64aa69d"
+    },
+    {
+      "file": "知识卡/T71_变革营销.md",
+      "sha256": "1305d41ade8409b7e3d87581695b04e058e4fbb260554823a1cb63263a90e4d9"
+    },
+    {
+      "file": "知识卡/T72_销售线索培育.md",
+      "sha256": "966cfe805cda710345b357d7233a56f6a68ba4952854430038985726c832ce90"
+    },
+    {
+      "file": "知识卡/T73_战略谈判.md",
+      "sha256": "88ff7ff7fad1c665e041f9361157a04995d1a3a9715ba237fc55967eaf45d52e"
+    },
+    {
+      "file": "知识卡/T74_销售团队计划.md",
+      "sha256": "9bac94fbf913fd066796a0a20ae1008cbfad183e2cf9e797a4d07b60f48d19a3"
+    },
+    {
+      "file": "知识卡/T75_定价管理.md",
+      "sha256": "e36912cfcbc8269b9ce1c92e98f4ac10e1a90d2bcb33c226a836377b0094329d"
+    },
+    {
+      "file": "知识卡/T76_定位与信息传递.md",
+      "sha256": "4187a3d330b15af28f79cd77e593257395583898064929b83e6e55ea2d0f7c13"
+    },
+    {
+      "file": "知识卡/T77_市场与渠道选择.md",
+      "sha256": "981b61c00aae274310fdfb42bd0b8b624b617d37c9dec08c9258f12948d8eb1d"
+    },
+    {
+      "file": "知识卡/T78_客户购买旅程.md",
+      "sha256": "75a099f0552bf266abf100d90ce58269196846a3223d7aec736eb27c11df009a"
+    },
+    {
+      "file": "知识卡/T79_品牌管理.md",
+      "sha256": "48afd41be10f114fa81b34d99ffe903aeaa87c2f33d83f64e7161445f9c03843"
+    },
+    {
+      "file": "知识卡/T80_创意构思与筛选.md",
+      "sha256": "c2e4e8aa2903a03480ea60fe7e1dab8371e195d65aeb8062d070e158b86f04b3"
+    },
+    {
+      "file": "知识卡/T81_创新十型.md",
+      "sha256": "01ae876b1a58b49909278879ede5f277658b646448ab9c38781760acb60c9285"
+    },
+    {
+      "file": "知识卡/T82_精益软件开发.md",
+      "sha256": "9e246d011ad6e2fb7ac23c4f4b7f820fa84873a4e1137f57c8a9902ec1b89a53"
+    },
+    {
+      "file": "知识卡/T83_用户体验设计.md",
+      "sha256": "66b8b64d2e59401315f76d414db13efac7696bf7a6ff1207e1a58edb4f6c74ed"
+    },
+    {
+      "file": "知识卡/T84_知识产权工作流程.md",
+      "sha256": "5116478061cf9c6435fdbd127cbf6134c1eedcc3a67a3072e7cc1c4f38984da8"
+    },
+    {
+      "file": "知识卡/T85_产品生命周期管理.md",
+      "sha256": "4a56196434daa77033e64583580b3dfc54b1f2610ec146a2a8a2498a46705b17"
+    },
+    {
+      "file": "知识卡/T86_动态资源配置.md",
+      "sha256": "37f227c6bb7d9023d8b73113833b11fd44887e5fc571478fad95690ab309d3ef"
+    },
+    {
+      "file": "知识卡/T87_数字营销.md",
+      "sha256": "9a3373878d5bfaacac38bc242c3795aed047adbaeb2251efbd1e114ee7493ad8"
+    },
+    {
+      "file": "知识卡/T88_整合人才管理.md",
+      "sha256": "dc233ecf350949584285995675ad388c11ae0418d8802c76c952321c3cf2239f"
+    },
+    {
+      "file": "知识卡/T89_组织与人才评审.md",
+      "sha256": "5bdbe5be69f9d3d594d1e401fe8ea38dc5a0578926d4f8b628ae99870a42b137"
+    },
+    {
+      "file": "知识卡/T90_DBS沉浸式学习.md",
+      "sha256": "d3d0c7ce8e2ff5e1b64eab0a27ec67ffce78e7087e06c83e9e9b2d8c32db8e76"
+    },
+    {
+      "file": "知识卡/T91_情境式领导.md",
+      "sha256": "149d73bdab5ff535e8a717aa9ac6749aac879122bf1717fecf48a556e2d785ac"
+    },
+    {
+      "file": "知识卡/T92_技能矩阵.md",
+      "sha256": "823fcc024232150f0f6777c2f62104be9ed888a20508f456c427443e9544370e"
+    },
+    {
+      "file": "知识卡/T93_工作教导四步法.md",
+      "sha256": "e0cc2692d4ceb8e26738a4a179b998f156bf2a361689fc7db9c9ce70f32e67d6"
+    },
+    {
+      "file": "知识卡/T94_责任与授权矩阵.md",
+      "sha256": "4e0309b8bb5c2d01622e785af18caf40c8d65ae90f922fc9968935fac7f3355b"
+    },
+    {
+      "file": "知识卡/T95_现场教练与反馈.md",
+      "sha256": "06ac0d1b0b654f4236e52d3a7296990e83e82e6d36f7d9db786bd61fe3876d7f"
     },
     {
       "file": "战略落地PD/D00_战略落地总纲.md",
-      "sha256": "003ec830092f334a098a52162c19d69c6508bf81b16c227a652d20ff327fec9f"
+      "sha256": "47889e91a754a3004cd520345e20d7c53ca9ba5319de3aac22a4ab519f39534c"
     },
     {
       "file": "战略落地PD/D01_战略部署定义与价值.md",
-      "sha256": "c1d90cf0b21ea4dd22ecb7ed2eabc150500055dae8a56f87937a79226b2fd425"
+      "sha256": "80023e4f10160f4b812ceb5cb8a9f912897a6e3fd38707ba35833203cecdf451"
     },
     {
       "file": "战略落地PD/D02_PD七阶段流程与时间表.md",
-      "sha256": "a35bbfccd9b02d60a3ffd41e1bbbb3717502f564dbeef598ae504012e0e9d228"
+      "sha256": "ae36ec44b9f3e2f7cfd7a8096a4ddbd4aedc62f0475e8cc34fe378329268b2a2"
     },
     {
       "file": "战略落地PD/D03_突破性目标.md",
-      "sha256": "c7ea2f5ec982bf60ffdb5c5d4638c6a484a984d39febe3d86be903106b42fbcb"
+      "sha256": "d1aa15532c9cd6a39424ed8bed89b0ee5ea8f534102a6059f5b10a9e864e55ac"
     },
     {
       "file": "战略落地PD/D04_年度突破目标.md",
-      "sha256": "018f30de8c4e8b1843b93b25d5872939db017f1937033a84ff1c0865e6909d1b"
+      "sha256": "176d0d29a8f44fa99e3321508340979858a7bc4ec1dcfe9f66da992f3242ccbd"
     },
     {
       "file": "战略落地PD/D05_最高层优先改善.md",
-      "sha256": "65651cc157203b68060208105be45a9f97f1c0040e961ca0b7034039644cffe7"
+      "sha256": "ed1a05a723b0e7266712b49e7912489b9488ef49ef9ecc37dfdfec27b6e9c609"
     },
     {
       "file": "战略落地PD/D06_改善指标TTI.md",
-      "sha256": "ffdbe7381f29cb19ed29dd937e629479728a6236a852f1b646a52ea703070b18"
+      "sha256": "d662c0dc98e3204503fc9b542f6b8e642dc9ac5739a9cfd2678f934fca1edd9f"
     },
     {
       "file": "战略落地PD/D07_关键资源与多功能团队.md",
-      "sha256": "eca4fd727db5ad71005a3e04ab226785d705a73df659822f91a5902635359f09"
+      "sha256": "5186bd7d610acfea36b7afe76dbdd67fa03100ea1bcc54c8da218fcd97157697"
     },
     {
       "file": "战略落地PD/D08_战略部署矩阵与层级联接.md",
-      "sha256": "91c5fbeec5978abe2d5e8f64fc6be094b3f263d6195199667c324d02d358e470"
+      "sha256": "bc44580814e6cdbbc8b1c8b5e2547aef0c7a6b1164a377b96ccc9ae40e1ce1d7"
     },
     {
       "file": "战略落地PD/D09_冲击点与行动计划.md",
-      "sha256": "ea13bc898b04aae2ac6c76159590302a12888aa656b167a2a350470c53e095a4"
+      "sha256": "9a6f4ed54049f67f2ae79d6bb969c3ea4a865b97cc0b94a692911748179e9c6f"
     },
     {
       "file": "战略落地PD/D10_月度评审与对策.md",
-      "sha256": "923fdfc48594e9e9ef876092b6428fada7653e72adf2d9b9e0a8700137d22cea"
+      "sha256": "36574d23310a5d944ad45c752829d4a0f78ac020b1022a21a5389ec3dd747467"
     },
     {
       "file": "战略落地PD/D11_年度自诊断与实施纪律.md",
-      "sha256": "a4f815c2c71d433b0704d8bccde2960430c7a001454e60bf33df03031d6ef6f8"
+      "sha256": "6fe475b489e75ab0236fc22c835c2397a6adc6622d0d02e92835ed9b9806cb56"
     },
     {
       "file": "战略落地PD/D12_PD与日常管理KPI的边界.md",
-      "sha256": "c745088f7581a108bcd9569b09570e3a43d1b14b44622aac8f41bbab4769ad5d"
+      "sha256": "c49f5148846d262375c85c5a2347c0564eebd43a0b07d69b3a25787feac985a0"
     },
     {
       "file": "战略落地PD/PD索引.md",
@@ -442,43 +723,32 @@
       "sha256": "25569ca99eafee807c6ccee76cb1d9dc9ba274d71726fb0c501ca52405745bb1"
     }
   ],
-  "usageRevision": {
+  "browserVerification": {
     "date": "2026-09-30",
-    "fixed": [
-      "S01",
-      "S02",
-      "S03",
-      "S04",
-      "S05",
-      "S09",
-      "S10"
+    "environment": "Codex内置浏览器，经127.0.0.1:8767预览同一本地HTML",
+    "viewportsRequested": [
+      "1280x900",
+      "390x844"
     ],
-    "partial": [
-      "S06",
-      "S07",
-      "S08"
-    ],
-    "browserChecks": [
-      "规格限全文命中T16",
-      "TPL05编号搜索优先返回本模板",
-      "保龄图包含周期效果与行动两表",
-      "T06入向8条可完整展开",
-      "七阶段与知识结构分开显示",
-      "卡片及全文刷新恢复",
-      "浏览器返回恢复任务视图",
-      "1280桌面与390手机宽度检查",
-      "无相关控制台错误或警告"
-    ],
-    "contentChecks": [
-      "14份模板字段结构检查通过",
-      "模拟12条记录和汇总计算核对通过",
-      "99份文档内部链接解析通过"
-    ],
-    "limits": [
-      "未完成全部核心工具操作包",
-      "未开展海顺现场真人试用",
-      "系统下载与打印结果未实测"
-    ],
-    "backup": "备份\\DBS知识体系_交互修订前_20260930_084122.zip"
+    "mainViews": 8,
+    "knowledgeCardsOpened": 119,
+    "extensionDocumentsOpened": 3,
+    "otherDirectMenuDocumentsOpened": 42,
+    "scopeFilters": {
+      "all": 95,
+      "general": 34,
+      "starter": 20
+    },
+    "checks": {
+      "pageIdentity": "通过",
+      "nonBlank": "通过",
+      "errorOverlay": "未见",
+      "consoleWarningsAndErrors": 0,
+      "search": "通过",
+      "glossaryToCardAndBack": "通过",
+      "mobileHorizontalOverflow": "未见",
+      "TWIExactlyFourSteps": "通过"
+    },
+    "limitations": "文件协议的浏览器行为、其他浏览器及真人学习效果未验证；企业工艺参数与实际收益需现场确认。"
   }
 }

@@ -5,9 +5,9 @@
       "type": "text",
       "x": 0,
       "y": -180,
-      "width": 1200,
+      "width": 1920,
       "height": 130,
-      "text": "# 能力模块与工具选择\n\n为清晰选取代表工具；完整目录见知识卡索引，不代表2026年丹纳赫完整内部清单。\n\n校正版 2026-09-30"
+      "text": "# 模块与工具全目录\n按用途分类；连线表示可选工具，非执行顺序。历史来源与通用补充分开标明。"
     },
     {
       "id": "M01",
@@ -15,253 +15,1745 @@
       "file": "DBS知识体系/知识卡/M01_共同基础.md",
       "x": 0,
       "y": 0,
-      "width": 360,
-      "height": 240
+      "width": 570,
+      "height": 200
     },
     {
-      "id": "T05",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/T05_价值流图.md",
-      "x": 420,
-      "y": 0,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "T06",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/T06_问题解决流程.md",
-      "x": 840,
-      "y": 0,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "T08",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/T08_可视化与日常管理.md",
-      "x": 1260,
-      "y": 0,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "M02",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/M02_精益能力.md",
+      "id": "group0_250",
+      "type": "text",
+      "text": "## 历史八项共同基础",
       "x": 0,
-      "y": 330,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "T13",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/T13_拉动与在制品限制.md",
-      "x": 420,
-      "y": 330,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "T14",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/T14_快速换型.md",
-      "x": 840,
-      "y": 330,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "T16",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/T16_变异管理与质量控制.md",
-      "x": 1260,
-      "y": 330,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "M03",
-      "type": "file",
-      "file": "DBS知识体系/知识卡/M03_增长能力.md",
-      "x": 0,
-      "y": 660,
-      "width": 360,
-      "height": 240
+      "y": 250,
+      "width": 570,
+      "height": 80
     },
     {
       "id": "T04",
       "type": "file",
       "file": "DBS知识体系/知识卡/T04_客户之声.md",
-      "x": 420,
-      "y": 660,
-      "width": 360,
-      "height": 240
+      "x": 50,
+      "y": 365,
+      "width": 520,
+      "height": 170
     },
     {
-      "id": "T22",
+      "id": "T05",
       "type": "file",
-      "file": "DBS知识体系/知识卡/T22_快速设计评审.md",
-      "x": 840,
-      "y": 660,
-      "width": 360,
-      "height": 240
+      "file": "DBS知识体系/知识卡/T05_价值流图.md",
+      "x": 50,
+      "y": 575,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T06",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T06_问题解决流程.md",
+      "x": 50,
+      "y": 785,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T07",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T07_改善活动.md",
+      "x": 50,
+      "y": 995,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T08",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T08_可视化与日常管理.md",
+      "x": 50,
+      "y": 1205,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T09",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T09_标准作业.md",
+      "x": 50,
+      "y": 1415,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T10",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T10_事务流程改进.md",
+      "x": 50,
+      "y": 1625,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T11",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T11_5S.md",
+      "x": 50,
+      "y": 1835,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group0_2045",
+      "type": "text",
+      "text": "## 流程边界与学习",
+      "x": 0,
+      "y": 2045,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T12",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T12_现场观察.md",
+      "x": 50,
+      "y": 2160,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T39",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T39_流程边界与SIPOC.md",
+      "x": 50,
+      "y": 2370,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T40",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T40_A3问题解决报告.md",
+      "x": 50,
+      "y": 2580,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group0_2790",
+      "type": "text",
+      "text": "## 定位问题与验证原因",
+      "x": 0,
+      "y": 2790,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T32",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T32_帕累托分析.md",
+      "x": 50,
+      "y": 2905,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T33",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T33_五问追因.md",
+      "x": 50,
+      "y": 3115,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T34",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T34_鱼骨图.md",
+      "x": 50,
+      "y": 3325,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T35",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T35_查检表与数据采集.md",
+      "x": 50,
+      "y": 3535,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T36",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T36_分层分析.md",
+      "x": 50,
+      "y": 3745,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T37",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T37_直方图.md",
+      "x": 50,
+      "y": 3955,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T38",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T38_散点图.md",
+      "x": 50,
+      "y": 4165,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "M02",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M02_精益能力.md",
+      "x": 640,
+      "y": 0,
+      "width": 570,
+      "height": 200
+    },
+    {
+      "id": "group1_250",
+      "type": "text",
+      "text": "## 流动与产能",
+      "x": 640,
+      "y": 250,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T13",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T13_拉动与在制品限制.md",
+      "x": 690,
+      "y": 365,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T14",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T14_快速换型.md",
+      "x": 690,
+      "y": 575,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T15",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T15_设备可靠性与TPM.md",
+      "x": 690,
+      "y": 785,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T48",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T48_设备综合效率.md",
+      "x": 690,
+      "y": 995,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T49",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T49_节拍周期与交付前置期.md",
+      "x": 690,
+      "y": 1205,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T50",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T50_作业平衡.md",
+      "x": 690,
+      "y": 1415,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T51",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T51_连续流与单元布局.md",
+      "x": 690,
+      "y": 1625,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T52",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T52_均衡化.md",
+      "x": 690,
+      "y": 1835,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T56",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T56_约束识别与瓶颈改善.md",
+      "x": 690,
+      "y": 2045,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T67",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T67_精益转化路线.md",
+      "x": 690,
+      "y": 2255,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group1_2465",
+      "type": "text",
+      "text": "## 质量预防与过程控制",
+      "x": 640,
+      "y": 2465,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T16",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T16_变异管理与质量控制.md",
+      "x": 690,
+      "y": 2580,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T41",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T41_关键质量要求.md",
+      "x": 690,
+      "y": 2790,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T42",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T42_测量系统分析.md",
+      "x": 690,
+      "y": 3000,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T43",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T43_统计过程控制.md",
+      "x": 690,
+      "y": 3210,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T44",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T44_过程能力与绩效指数.md",
+      "x": 690,
+      "y": 3420,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T45",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T45_失效模式与影响分析.md",
+      "x": 690,
+      "y": 3630,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T46",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T46_控制计划与异常反应.md",
+      "x": 690,
+      "y": 3840,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T47",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T47_防错.md",
+      "x": 690,
+      "y": 4050,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group1_4260",
+      "type": "text",
+      "text": "## 物料采购与供应协同",
+      "x": 640,
+      "y": 4260,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T17",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T17_产销库存协同.md",
+      "x": 690,
+      "y": 4375,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T53",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T53_物料分类管理.md",
+      "x": 690,
+      "y": 4585,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T54",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T54_缓冲与安全库存.md",
+      "x": 690,
+      "y": 4795,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T55",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T55_先进先出与队列限制.md",
+      "x": 690,
+      "y": 5005,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T57",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T57_供应商质量管理.md",
+      "x": 690,
+      "y": 5215,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T60",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T60_物料管理系统.md",
+      "x": 690,
+      "y": 5425,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T61",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T61_采购工作坊与供应链改善.md",
+      "x": 690,
+      "y": 5635,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group1_5845",
+      "type": "text",
+      "text": "## 设计与可靠性",
+      "x": 640,
+      "y": 5845,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T18",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T18_价值分析与价值工程.md",
+      "x": 690,
+      "y": 5960,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T58",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T58_生产准备流程.md",
+      "x": 690,
+      "y": 6170,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T59",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T59_能源节省改善.md",
+      "x": 690,
+      "y": 6380,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T62",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T62_可靠性设计.md",
+      "x": 690,
+      "y": 6590,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T63",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T63_客户服务与支持.md",
+      "x": 690,
+      "y": 6800,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T64",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T64_客户缺陷追踪与纠正.md",
+      "x": 690,
+      "y": 7010,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T65",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T65_质量系统基础.md",
+      "x": 690,
+      "y": 7220,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T66",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T66_合规批准与放行准备.md",
+      "x": 690,
+      "y": 7430,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "M03",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M03_增长能力.md",
+      "x": 1280,
+      "y": 0,
+      "width": 570,
+      "height": 200
+    },
+    {
+      "id": "group2_250",
+      "type": "text",
+      "text": "## 客户选择与商业执行",
+      "x": 1280,
+      "y": 250,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T19",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T19_客户细分.md",
+      "x": 1330,
+      "y": 365,
+      "width": 520,
+      "height": 170
     },
     {
       "id": "T24",
       "type": "file",
       "file": "DBS知识体系/知识卡/T24_销售漏斗管理.md",
-      "x": 1260,
-      "y": 660,
-      "width": 360,
-      "height": 240
+      "x": 1330,
+      "y": 575,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T25",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T25_价值销售.md",
+      "x": 1330,
+      "y": 785,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T26",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T26_增长室.md",
+      "x": 1330,
+      "y": 995,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T71",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T71_变革营销.md",
+      "x": 1330,
+      "y": 1205,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T72",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T72_销售线索培育.md",
+      "x": 1330,
+      "y": 1415,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T73",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T73_战略谈判.md",
+      "x": 1330,
+      "y": 1625,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T74",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T74_销售团队计划.md",
+      "x": 1330,
+      "y": 1835,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T75",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T75_定价管理.md",
+      "x": 1330,
+      "y": 2045,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T76",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T76_定位与信息传递.md",
+      "x": 1330,
+      "y": 2255,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T77",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T77_市场与渠道选择.md",
+      "x": 1330,
+      "y": 2465,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T78",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T78_客户购买旅程.md",
+      "x": 1330,
+      "y": 2675,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T79",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T79_品牌管理.md",
+      "x": 1330,
+      "y": 2885,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T87",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T87_数字营销.md",
+      "x": 1330,
+      "y": 3095,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group2_3305",
+      "type": "text",
+      "text": "## 创新选择与项目治理",
+      "x": 1280,
+      "y": 3305,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T20",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T20_创新领域与机会选择.md",
+      "x": 1330,
+      "y": 3420,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T21",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T21_产品规划与资源配置.md",
+      "x": 1330,
+      "y": 3630,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T22",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T22_快速设计评审.md",
+      "x": 1330,
+      "y": 3840,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T23",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T23_可视化项目管理.md",
+      "x": 1330,
+      "y": 4050,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T30",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T30_上市与交付准备.md",
+      "x": 1330,
+      "y": 4260,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T68",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T68_从客户问题到产品组合.md",
+      "x": 1330,
+      "y": 4470,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T69",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T69_丹纳赫创新流程.md",
+      "x": 1330,
+      "y": 4680,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T70",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T70_加速产品开发.md",
+      "x": 1330,
+      "y": 4890,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T80",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T80_创意构思与筛选.md",
+      "x": 1330,
+      "y": 5100,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T81",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T81_创新十型.md",
+      "x": 1330,
+      "y": 5310,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T86",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T86_动态资源配置.md",
+      "x": 1330,
+      "y": 5520,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group2_5730",
+      "type": "text",
+      "text": "## 开发与生命周期",
+      "x": 1280,
+      "y": 5730,
+      "width": 570,
+      "height": 80
+    },
+    {
+      "id": "T82",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T82_精益软件开发.md",
+      "x": 1330,
+      "y": 5845,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T83",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T83_用户体验设计.md",
+      "x": 1330,
+      "y": 6055,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T84",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T84_知识产权工作流程.md",
+      "x": 1330,
+      "y": 6265,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T85",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T85_产品生命周期管理.md",
+      "x": 1330,
+      "y": 6475,
+      "width": 520,
+      "height": 170
     },
     {
       "id": "M04",
       "type": "file",
       "file": "DBS知识体系/知识卡/M04_领导力能力.md",
-      "x": 0,
-      "y": 990,
-      "width": 360,
-      "height": 240
+      "x": 1920,
+      "y": 0,
+      "width": 570,
+      "height": 200
+    },
+    {
+      "id": "group3_250",
+      "type": "text",
+      "text": "## 组织与人才",
+      "x": 1920,
+      "y": 250,
+      "width": 570,
+      "height": 80
     },
     {
       "id": "T27",
       "type": "file",
       "file": "DBS知识体系/知识卡/T27_人才发展与继任.md",
-      "x": 420,
-      "y": 990,
-      "width": 360,
-      "height": 240
+      "x": 1970,
+      "y": 365,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T31",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T31_九宫格人才盘点.md",
+      "x": 1970,
+      "y": 575,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T88",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T88_整合人才管理.md",
+      "x": 1970,
+      "y": 785,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T89",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T89_组织与人才评审.md",
+      "x": 1970,
+      "y": 995,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T92",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T92_技能矩阵.md",
+      "x": 1970,
+      "y": 1205,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T94",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T94_责任与授权矩阵.md",
+      "x": 1970,
+      "y": 1415,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "group3_1625",
+      "type": "text",
+      "text": "## 岗位培养与领导日常",
+      "x": 1920,
+      "y": 1625,
+      "width": 570,
+      "height": 80
     },
     {
       "id": "T28",
       "type": "file",
       "file": "DBS知识体系/知识卡/T28_领导标准工作.md",
-      "x": 840,
-      "y": 990,
-      "width": 360,
-      "height": 240
+      "x": 1970,
+      "y": 1740,
+      "width": 520,
+      "height": 170
     },
     {
       "id": "T29",
       "type": "file",
       "file": "DBS知识体系/知识卡/T29_DBS推进角色.md",
-      "x": 1260,
-      "y": 990,
-      "width": 360,
-      "height": 240
+      "x": 1970,
+      "y": 1950,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T90",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T90_DBS沉浸式学习.md",
+      "x": 1970,
+      "y": 2160,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T91",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T91_情境式领导.md",
+      "x": 1970,
+      "y": 2370,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T93",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T93_工作教导四步法.md",
+      "x": 1970,
+      "y": 2580,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "T95",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T95_现场教练与反馈.md",
+      "x": 1970,
+      "y": 2790,
+      "width": 520,
+      "height": 170
+    },
+    {
+      "id": "pdindex",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/PD索引.md",
+      "x": 2560,
+      "y": 0,
+      "width": 540,
+      "height": 220
+    },
+    {
+      "id": "T01",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T01_方针部署.md",
+      "x": 2560,
+      "y": 500,
+      "width": 540,
+      "height": 180
+    },
+    {
+      "id": "T02",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T02_目标协商与部署矩阵.md",
+      "x": 2560,
+      "y": 720,
+      "width": 540,
+      "height": 180
+    },
+    {
+      "id": "T03",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T03_保龄图与行动计划.md",
+      "x": 2560,
+      "y": 940,
+      "width": 540,
+      "height": 180
     }
   ],
   "edges": [
     {
-      "id": "c0",
-      "fromNode": "M01",
-      "fromSide": "right",
-      "toNode": "T05",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
-    },
-    {
-      "id": "c1",
-      "fromNode": "M01",
-      "fromSide": "right",
-      "toNode": "T06",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
-    },
-    {
-      "id": "c2",
-      "fromNode": "M01",
-      "fromSide": "right",
-      "toNode": "T08",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
-    },
-    {
-      "id": "c3",
-      "fromNode": "M02",
-      "fromSide": "right",
-      "toNode": "T13",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
-    },
-    {
-      "id": "c4",
-      "fromNode": "M02",
-      "fromSide": "right",
-      "toNode": "T14",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
-    },
-    {
-      "id": "c5",
-      "fromNode": "M02",
-      "fromSide": "right",
-      "toNode": "T16",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
-    },
-    {
-      "id": "c6",
-      "fromNode": "M03",
+      "id": "eT04",
+      "fromNode": "group0_250",
       "fromSide": "right",
       "toNode": "T04",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
+      "toSide": "right",
+      "label": "按需选用"
     },
     {
-      "id": "c7",
-      "fromNode": "M03",
+      "id": "eT05",
+      "fromNode": "group0_250",
       "fromSide": "right",
-      "toNode": "T22",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
+      "toNode": "T05",
+      "toSide": "right",
+      "label": "按需选用"
     },
     {
-      "id": "c8",
-      "fromNode": "M03",
+      "id": "eT06",
+      "fromNode": "group0_250",
+      "fromSide": "right",
+      "toNode": "T06",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT07",
+      "fromNode": "group0_250",
+      "fromSide": "right",
+      "toNode": "T07",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT08",
+      "fromNode": "group0_250",
+      "fromSide": "right",
+      "toNode": "T08",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT09",
+      "fromNode": "group0_250",
+      "fromSide": "right",
+      "toNode": "T09",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT10",
+      "fromNode": "group0_250",
+      "fromSide": "right",
+      "toNode": "T10",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT11",
+      "fromNode": "group0_250",
+      "fromSide": "right",
+      "toNode": "T11",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT12",
+      "fromNode": "group0_2045",
+      "fromSide": "right",
+      "toNode": "T12",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT39",
+      "fromNode": "group0_2045",
+      "fromSide": "right",
+      "toNode": "T39",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT40",
+      "fromNode": "group0_2045",
+      "fromSide": "right",
+      "toNode": "T40",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT32",
+      "fromNode": "group0_2790",
+      "fromSide": "right",
+      "toNode": "T32",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT33",
+      "fromNode": "group0_2790",
+      "fromSide": "right",
+      "toNode": "T33",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT34",
+      "fromNode": "group0_2790",
+      "fromSide": "right",
+      "toNode": "T34",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT35",
+      "fromNode": "group0_2790",
+      "fromSide": "right",
+      "toNode": "T35",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT36",
+      "fromNode": "group0_2790",
+      "fromSide": "right",
+      "toNode": "T36",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT37",
+      "fromNode": "group0_2790",
+      "fromSide": "right",
+      "toNode": "T37",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT38",
+      "fromNode": "group0_2790",
+      "fromSide": "right",
+      "toNode": "T38",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT13",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T13",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT14",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T14",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT15",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T15",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT48",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T48",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT49",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T49",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT50",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T50",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT51",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T51",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT52",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T52",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT56",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T56",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT67",
+      "fromNode": "group1_250",
+      "fromSide": "right",
+      "toNode": "T67",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT16",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T16",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT41",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T41",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT42",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T42",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT43",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T43",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT44",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T44",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT45",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T45",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT46",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T46",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT47",
+      "fromNode": "group1_2465",
+      "fromSide": "right",
+      "toNode": "T47",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT17",
+      "fromNode": "group1_4260",
+      "fromSide": "right",
+      "toNode": "T17",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT53",
+      "fromNode": "group1_4260",
+      "fromSide": "right",
+      "toNode": "T53",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT54",
+      "fromNode": "group1_4260",
+      "fromSide": "right",
+      "toNode": "T54",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT55",
+      "fromNode": "group1_4260",
+      "fromSide": "right",
+      "toNode": "T55",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT57",
+      "fromNode": "group1_4260",
+      "fromSide": "right",
+      "toNode": "T57",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT60",
+      "fromNode": "group1_4260",
+      "fromSide": "right",
+      "toNode": "T60",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT61",
+      "fromNode": "group1_4260",
+      "fromSide": "right",
+      "toNode": "T61",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT18",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T18",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT58",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T58",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT59",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T59",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT62",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T62",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT63",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T63",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT64",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T64",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT65",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T65",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT66",
+      "fromNode": "group1_5845",
+      "fromSide": "right",
+      "toNode": "T66",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT19",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T19",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT24",
+      "fromNode": "group2_250",
       "fromSide": "right",
       "toNode": "T24",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
+      "toSide": "right",
+      "label": "按需选用"
     },
     {
-      "id": "c9",
-      "fromNode": "M04",
+      "id": "eT25",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T25",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT26",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T26",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT71",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T71",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT72",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T72",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT73",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T73",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT74",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T74",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT75",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T75",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT76",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T76",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT77",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T77",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT78",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T78",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT79",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T79",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT87",
+      "fromNode": "group2_250",
+      "fromSide": "right",
+      "toNode": "T87",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT20",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T20",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT21",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T21",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT22",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T22",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT23",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T23",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT30",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T30",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT68",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T68",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT69",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T69",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT70",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T70",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT80",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T80",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT81",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T81",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT86",
+      "fromNode": "group2_3305",
+      "fromSide": "right",
+      "toNode": "T86",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT82",
+      "fromNode": "group2_5730",
+      "fromSide": "right",
+      "toNode": "T82",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT83",
+      "fromNode": "group2_5730",
+      "fromSide": "right",
+      "toNode": "T83",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT84",
+      "fromNode": "group2_5730",
+      "fromSide": "right",
+      "toNode": "T84",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT85",
+      "fromNode": "group2_5730",
+      "fromSide": "right",
+      "toNode": "T85",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT27",
+      "fromNode": "group3_250",
       "fromSide": "right",
       "toNode": "T27",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
+      "toSide": "right",
+      "label": "按需选用"
     },
     {
-      "id": "c10",
-      "fromNode": "M04",
+      "id": "eT31",
+      "fromNode": "group3_250",
+      "fromSide": "right",
+      "toNode": "T31",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT88",
+      "fromNode": "group3_250",
+      "fromSide": "right",
+      "toNode": "T88",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT89",
+      "fromNode": "group3_250",
+      "fromSide": "right",
+      "toNode": "T89",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT92",
+      "fromNode": "group3_250",
+      "fromSide": "right",
+      "toNode": "T92",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT94",
+      "fromNode": "group3_250",
+      "fromSide": "right",
+      "toNode": "T94",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT28",
+      "fromNode": "group3_1625",
       "fromSide": "right",
       "toNode": "T28",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
+      "toSide": "right",
+      "label": "按需选用"
     },
     {
-      "id": "c11",
-      "fromNode": "M04",
+      "id": "eT29",
+      "fromNode": "group3_1625",
       "fromSide": "right",
       "toNode": "T29",
-      "toSide": "left",
-      "label": "方法入口",
-      "toEnd": "arrow"
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT90",
+      "fromNode": "group3_1625",
+      "fromSide": "right",
+      "toNode": "T90",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT91",
+      "fromNode": "group3_1625",
+      "fromSide": "right",
+      "toNode": "T91",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT93",
+      "fromNode": "group3_1625",
+      "fromSide": "right",
+      "toNode": "T93",
+      "toSide": "right",
+      "label": "按需选用"
+    },
+    {
+      "id": "eT95",
+      "fromNode": "group3_1625",
+      "fromSide": "right",
+      "toNode": "T95",
+      "toSide": "right",
+      "label": "按需选用"
     }
   ]
 }
