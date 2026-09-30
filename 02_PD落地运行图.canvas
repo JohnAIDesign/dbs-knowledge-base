@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -180,
+      "width": 1200,
+      "height": 130,
+      "text": "# PD与日常管理相连\n\n共用事实底座；任务可来自任一部署层级，原因未知可先调查。\n\n校正版 2026-09-30"
+    },
+    {
+      "id": "T01",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T01_方针部署.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D05",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D05_最高层优先改善.md",
+      "x": 420,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D06",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D06_改善指标TTI.md",
+      "x": 840,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D07",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D07_关键资源与多功能团队.md",
+      "x": 1260,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D09",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D09_冲击点与行动计划.md",
+      "x": 0,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T06",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T06_问题解决流程.md",
+      "x": 420,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T08",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T08_可视化与日常管理.md",
+      "x": 840,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T09",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T09_标准作业.md",
+      "x": 1260,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "c0",
+      "fromNode": "T01",
+      "fromSide": "right",
+      "toNode": "D05",
+      "toSide": "left",
+      "label": "部署为",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c1",
+      "fromNode": "D05",
+      "fromSide": "right",
+      "toNode": "D06",
+      "toSide": "left",
+      "label": "效果由其检验",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c2",
+      "fromNode": "D05",
+      "fromSide": "right",
+      "toNode": "D07",
+      "toSide": "left",
+      "label": "协商资源",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c3",
+      "fromNode": "D05",
+      "fromSide": "right",
+      "toNode": "D09",
+      "toSide": "left",
+      "label": "形成执行或调查",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c4",
+      "fromNode": "D09",
+      "fromSide": "right",
+      "toNode": "T06",
+      "toSide": "left",
+      "label": "验证原因与对策",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c5",
+      "fromNode": "T06",
+      "fromSide": "right",
+      "toNode": "T09",
+      "toSide": "left",
+      "label": "验证后标准化",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c6",
+      "fromNode": "T09",
+      "fromSide": "right",
+      "toNode": "T08",
+      "toSide": "left",
+      "label": "进入日常",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c7",
+      "fromNode": "T08",
+      "fromSide": "right",
+      "toNode": "T01",
+      "toSide": "left",
+      "label": "系统性差距反馈",
+      "toEnd": "arrow"
+    }
+  ]
+}

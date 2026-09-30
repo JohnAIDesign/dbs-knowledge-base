@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -180,
+      "width": 1200,
+      "height": 130,
+      "text": "# DBS体系：不同分类，各自回答一个问题\n\n4P不是部门；QDCI不是能力模块。本轮QDC联合验收，库存支持。\n\n校正版 2026-09-30"
+    },
+    {
+      "id": "C01",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/C01_DBS定义.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "C02",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/C02_人才计划流程绩效.md",
+      "x": 420,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "C03",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/C03_质量交付成本创新.md",
+      "x": 840,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "C07",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/C07_文化价值观与管理行为.md",
+      "x": 1260,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "M01",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M01_共同基础.md",
+      "x": 0,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "M02",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M02_精益能力.md",
+      "x": 420,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "M03",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M03_增长能力.md",
+      "x": 840,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "M04",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M04_领导力能力.md",
+      "x": 1260,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "c0",
+      "fromNode": "C01",
+      "fromSide": "right",
+      "toNode": "C02",
+      "toSide": "left",
+      "label": "运行逻辑",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c1",
+      "fromNode": "C01",
+      "fromSide": "right",
+      "toNode": "C03",
+      "toSide": "left",
+      "label": "改善方向",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c2",
+      "fromNode": "C01",
+      "fromSide": "right",
+      "toNode": "C07",
+      "toSide": "left",
+      "label": "文化与行为",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c3",
+      "fromNode": "C01",
+      "fromSide": "right",
+      "toNode": "M01",
+      "toSide": "left",
+      "label": "共同方法",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c4",
+      "fromNode": "M01",
+      "fromSide": "right",
+      "toNode": "M02",
+      "toSide": "left",
+      "label": "支持",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c5",
+      "fromNode": "M01",
+      "fromSide": "right",
+      "toNode": "M03",
+      "toSide": "left",
+      "label": "支持",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c6",
+      "fromNode": "M01",
+      "fromSide": "right",
+      "toNode": "M04",
+      "toSide": "left",
+      "label": "支持",
+      "toEnd": "arrow"
+    }
+  ]
+}

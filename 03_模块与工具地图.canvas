@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -180,
+      "width": 1200,
+      "height": 130,
+      "text": "# 能力模块与工具选择\n\n为清晰选取代表工具；完整目录见知识卡索引，不代表2026年丹纳赫完整内部清单。\n\n校正版 2026-09-30"
+    },
+    {
+      "id": "M01",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M01_共同基础.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T05",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T05_价值流图.md",
+      "x": 420,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T06",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T06_问题解决流程.md",
+      "x": 840,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T08",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T08_可视化与日常管理.md",
+      "x": 1260,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "M02",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M02_精益能力.md",
+      "x": 0,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T13",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T13_拉动与在制品限制.md",
+      "x": 420,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T14",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T14_快速换型.md",
+      "x": 840,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T16",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T16_变异管理与质量控制.md",
+      "x": 1260,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "M03",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M03_增长能力.md",
+      "x": 0,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T04",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T04_客户之声.md",
+      "x": 420,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T22",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T22_快速设计评审.md",
+      "x": 840,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T24",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T24_销售漏斗管理.md",
+      "x": 1260,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "M04",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/M04_领导力能力.md",
+      "x": 0,
+      "y": 990,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T27",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T27_人才发展与继任.md",
+      "x": 420,
+      "y": 990,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T28",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T28_领导标准工作.md",
+      "x": 840,
+      "y": 990,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T29",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T29_DBS推进角色.md",
+      "x": 1260,
+      "y": 990,
+      "width": 360,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "c0",
+      "fromNode": "M01",
+      "fromSide": "right",
+      "toNode": "T05",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c1",
+      "fromNode": "M01",
+      "fromSide": "right",
+      "toNode": "T06",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c2",
+      "fromNode": "M01",
+      "fromSide": "right",
+      "toNode": "T08",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c3",
+      "fromNode": "M02",
+      "fromSide": "right",
+      "toNode": "T13",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c4",
+      "fromNode": "M02",
+      "fromSide": "right",
+      "toNode": "T14",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c5",
+      "fromNode": "M02",
+      "fromSide": "right",
+      "toNode": "T16",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c6",
+      "fromNode": "M03",
+      "fromSide": "right",
+      "toNode": "T04",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c7",
+      "fromNode": "M03",
+      "fromSide": "right",
+      "toNode": "T22",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c8",
+      "fromNode": "M03",
+      "fromSide": "right",
+      "toNode": "T24",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c9",
+      "fromNode": "M04",
+      "fromSide": "right",
+      "toNode": "T27",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c10",
+      "fromNode": "M04",
+      "fromSide": "right",
+      "toNode": "T28",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c11",
+      "fromNode": "M04",
+      "fromSide": "right",
+      "toNode": "T29",
+      "toSide": "left",
+      "label": "方法入口",
+      "toEnd": "arrow"
+    }
+  ]
+}

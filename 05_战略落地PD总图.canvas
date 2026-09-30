@@ -1,0 +1,258 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -180,
+      "width": 1200,
+      "height": 130,
+      "text": "# 战略部署与证据闭环\n\n七阶段第三阶段包含年度改善优先目标和资源；目标/IP可多对多，因果须取证。\n\n校正版 2026-09-30"
+    },
+    {
+      "id": "D00",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D00_战略落地总纲.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D01",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D01_战略部署定义与价值.md",
+      "x": 420,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D02",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D02_PD七阶段流程与时间表.md",
+      "x": 840,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D03",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D03_突破性目标.md",
+      "x": 1260,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D04",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D04_年度突破目标.md",
+      "x": 0,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D05",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D05_最高层优先改善.md",
+      "x": 420,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D06",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D06_改善指标TTI.md",
+      "x": 840,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D07",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D07_关键资源与多功能团队.md",
+      "x": 1260,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D08",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D08_战略部署矩阵与层级联接.md",
+      "x": 0,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D09",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D09_冲击点与行动计划.md",
+      "x": 420,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D10",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D10_月度评审与对策.md",
+      "x": 840,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D11",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D11_年度自诊断与实施纪律.md",
+      "x": 1260,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "D12",
+      "type": "file",
+      "file": "DBS知识体系/战略落地PD/D12_PD与日常管理KPI的边界.md",
+      "x": 0,
+      "y": 990,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "H04",
+      "type": "file",
+      "file": "DBS知识体系/海顺04_战略到执行总纲.md",
+      "x": 420,
+      "y": 990,
+      "width": 360,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "c0",
+      "fromNode": "D00",
+      "fromSide": "right",
+      "toNode": "D01",
+      "toSide": "left",
+      "label": "定义",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c1",
+      "fromNode": "D00",
+      "fromSide": "right",
+      "toNode": "D02",
+      "toSide": "left",
+      "label": "年度组织流程",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c2",
+      "fromNode": "D03",
+      "fromSide": "right",
+      "toNode": "D04",
+      "toSide": "left",
+      "label": "年度进展",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c3",
+      "fromNode": "D05",
+      "fromSide": "right",
+      "toNode": "D04",
+      "toSide": "left",
+      "label": "可多对多贡献",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c4",
+      "fromNode": "D05",
+      "fromSide": "right",
+      "toNode": "D06",
+      "toSide": "left",
+      "label": "效果检验",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c5",
+      "fromNode": "D05",
+      "fromSide": "right",
+      "toNode": "D07",
+      "toSide": "left",
+      "label": "资源承诺",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c6",
+      "fromNode": "D08",
+      "fromSide": "right",
+      "toNode": "D05",
+      "toSide": "left",
+      "label": "展示并协商关系",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c7",
+      "fromNode": "D08",
+      "fromSide": "right",
+      "toNode": "D09",
+      "toSide": "left",
+      "label": "任一层级可形成",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c8",
+      "fromNode": "D09",
+      "fromSide": "right",
+      "toNode": "D10",
+      "toSide": "left",
+      "label": "行动与效果分开评审",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c9",
+      "fromNode": "D10",
+      "fromSide": "right",
+      "toNode": "D11",
+      "toSide": "left",
+      "label": "反馈年度学习",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c10",
+      "fromNode": "D11",
+      "fromSide": "right",
+      "toNode": "D00",
+      "toSide": "left",
+      "label": "复核战略",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c11",
+      "fromNode": "D12",
+      "fromSide": "right",
+      "toNode": "D10",
+      "toSide": "left",
+      "label": "连接突破与日常",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c12",
+      "fromNode": "H04",
+      "fromSide": "right",
+      "toNode": "D00",
+      "toSide": "left",
+      "label": "应用此闭环",
+      "toEnd": "arrow"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "x": 0,
+      "y": -180,
+      "width": 1200,
+      "height": 130,
+      "text": "# 真实任务与带教\n\n能解释→能跟做→能独立做→能带人。教学标准，不是丹纳赫认证等级。\n\n校正版 2026-09-30"
+    },
+    {
+      "id": "R01",
+      "type": "file",
+      "file": "DBS知识体系/海顺02_岗位学习与带教验收.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T01",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T01_方针部署.md",
+      "x": 420,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T28",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T28_领导标准工作.md",
+      "x": 840,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "R02",
+      "type": "file",
+      "file": "DBS知识体系/海顺02_岗位学习与带教验收.md",
+      "x": 1260,
+      "y": 0,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T05",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T05_价值流图.md",
+      "x": 0,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T06",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T06_问题解决流程.md",
+      "x": 420,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "R03",
+      "type": "file",
+      "file": "DBS知识体系/海顺02_岗位学习与带教验收.md",
+      "x": 840,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T08",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T08_可视化与日常管理.md",
+      "x": 1260,
+      "y": 330,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "T09",
+      "type": "file",
+      "file": "DBS知识体系/知识卡/T09_标准作业.md",
+      "x": 0,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "TPL10",
+      "type": "file",
+      "file": "DBS知识体系/模板/TPL10_能力与带教记录.md",
+      "x": 420,
+      "y": 660,
+      "width": 360,
+      "height": 240
+    }
+  ],
+  "edges": [
+    {
+      "id": "c0",
+      "fromNode": "R01",
+      "fromSide": "right",
+      "toNode": "T01",
+      "toSide": "left",
+      "label": "选择与资源",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c1",
+      "fromNode": "R01",
+      "fromSide": "right",
+      "toNode": "T28",
+      "toSide": "left",
+      "label": "示范",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c2",
+      "fromNode": "R02",
+      "fromSide": "right",
+      "toNode": "T05",
+      "toSide": "left",
+      "label": "观察流程",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c3",
+      "fromNode": "R02",
+      "fromSide": "right",
+      "toNode": "T06",
+      "toSide": "left",
+      "label": "验证改变",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c4",
+      "fromNode": "R03",
+      "fromSide": "right",
+      "toNode": "T08",
+      "toSide": "left",
+      "label": "异常响应",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c5",
+      "fromNode": "R03",
+      "fromSide": "right",
+      "toNode": "T09",
+      "toSide": "left",
+      "label": "现场执行",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c6",
+      "fromNode": "R01",
+      "fromSide": "right",
+      "toNode": "TPL10",
+      "toSide": "left",
+      "label": "记录能力证据",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c7",
+      "fromNode": "R02",
+      "fromSide": "right",
+      "toNode": "TPL10",
+      "toSide": "left",
+      "label": "记录能力证据",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "c8",
+      "fromNode": "R03",
+      "fromSide": "right",
+      "toNode": "TPL10",
+      "toSide": "left",
+      "label": "记录能力证据",
+      "toEnd": "arrow"
+    }
+  ]
+}
